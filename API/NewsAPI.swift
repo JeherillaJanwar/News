@@ -56,7 +56,7 @@ struct NewsAPI {
     private func generateSearchURL(from query: String) -> URL {
         let percentEncodedString = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? query
         var url = "https://newsapi.org/v2/everything?" 
-        url += "apiKey=YOUR API" // Your API from https://newsapi.org/
+        url += "apiKey= YOUR API" // Your API from https://newsapi.org/
         url += "&language=en"
         url += "&q=\(percentEncodedString)"
         return URL(string: url)!
