@@ -10,3 +10,4 @@ In the API folder go to the file "NewsAPI.swift". Then edit the lines 59 and 67 
 # On which device is this app available on?
 - iOS
 - iPadOS
+- macOS
